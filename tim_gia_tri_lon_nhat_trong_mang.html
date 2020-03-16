@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim gia tri lon nhat trong mang</title>
+</head>
+<body>
+<script>
+   // Cach 1:
+    // let array = [72,56,21,4,3,8,9];
+    // let maxnumber=array[0];
+    // for (let i=0 ; i<array.length; i++){
+    //     if (maxnumber <array[i]){
+    //         maxnumber=array[i];
+    //     }
+    //
+    // }document.write(maxnumber);
+    // Cach 2:
+   let array = [72,56,21,4,3,8,9];
+   let index=0;
+   let max= array[0];
+   for (let i=0; i<array.length; i++){
+       if ( array[i]>max){
+           max=array[i];
+           index=i;
+       }
+   } alert("max: " + max + " at position " + index);
+</script>
+</body>
+</html>
